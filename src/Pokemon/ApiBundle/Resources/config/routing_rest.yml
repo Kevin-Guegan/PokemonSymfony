@@ -1,0 +1,70 @@
+
+pokemon_rest_badges:
+    type:     rest
+    resource: Pokemon\ApiBundle\Controller\RestBadgesController
+    prefix : badges
+
+pokemon_rest_arenes:
+    type:     rest
+    resource: Pokemon\ApiBundle\Controller\RestArenesController
+    prefix : arenes
+
+pokemon_rest_types:
+    type:     rest
+    resource: Pokemon\ApiBundle\Controller\RestTypesController
+    prefix : types
+
+pokemon_rest_attaques:
+    type:     rest
+    resource: Pokemon\ApiBundle\Controller\RestAttaquesController
+    prefix : attaques
+
+pokemon_rest_npcs:
+    type:     rest
+    resource: Pokemon\ApiBundle\Controller\RestNpcsController
+    prefix : npcs
+
+pokemon_rest_dresseurs:
+    type:     rest
+    resource: Pokemon\ApiBundle\Controller\RestDresseursController
+    prefix : dresseurs
+
+pokemon_rest_pokemons:
+    type:     rest
+    resource: Pokemon\ApiBundle\Controller\RestPokemonsController
+    prefix : pokemons
+
+pokemon_rest_objets:
+    type:     rest
+    resource: Pokemon\ApiBundle\Controller\RestObjetsController
+    prefix : objets
+
+pokemon_rest_typeObjets:
+    type:     rest
+    resource: Pokemon\ApiBundle\Controller\RestTypeObjetsController
+    prefix : typeobjets
+
+pokemon_rest_pokedexs:
+    type:     rest
+    resource: Pokemon\ApiBundle\Controller\RestPokedexsController
+    prefix : pokedexs
+
+pokemon_rest_typeDePokemons:
+    type:     rest
+    resource: Pokemon\ApiBundle\Controller\RestTypeDePokemonsController
+    prefix : typedepokemons
+
+pokemon_rest_positions:
+    type:     rest
+    resource: Pokemon\ApiBundle\Controller\RestPositionsController
+    prefix : positions
+
+pokemon_rest_zones:
+    type:     rest
+    resource: Pokemon\ApiBundle\Controller\RestZonesController
+    prefix : zones
+
+pokemon_rest_sync:
+    type:     rest
+    resource: Pokemon\ApiBundle\Controller\RestSyncGlobalController
+    prefix: sync
